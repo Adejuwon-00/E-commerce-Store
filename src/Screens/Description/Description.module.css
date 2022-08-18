@@ -1,0 +1,182 @@
+.description-page {
+    padding: 100px 8px;
+    margin: 0px 30px;
+    height: 100vh;
+}
+
+.description-container {
+    display: flex;
+}
+
+.individual-image {
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 5px;
+    height: 100px;
+}
+
+.individual-image:hover {
+    cursor: pointer;
+    padding: 5px;
+    border: 1.2px solid rgba(169, 169, 169, 0.141);
+    border-radius: 10px;
+}
+
+.images-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-image-section {
+    /* background-color: rebeccapurple; */
+    padding-top: 50px;
+    margin-left: 40px;
+    display: flex;
+    width: 42%;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.main-image {
+    max-width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.info-section {
+    /* border: 1px solid aqua; */
+    width: 40%;
+    margin-left: auto;
+    padding: 30px;
+}
+
+.sub-title {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.attribute-section {
+    margin-top: 40px;
+}
+
+.non-swatch {
+    display: flex;
+}
+
+.swatch {
+    display: flex;
+}
+
+.attribute-title {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.attributes {
+    display: flex;
+}
+
+.attribute-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 5px;
+}
+
+label {
+    display: flex;
+    border: solid 1px black;
+    padding: 5px;
+    width: fit-content;
+    height: 25px;
+    color: black;
+    text-align: center;
+    line-height: 12px;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+input:checked~label {
+    /* border: 2px solid green;
+  background-color: green; */
+    border-radius: 5px;
+    color: white;
+}
+
+.swatch-attribute {
+    margin-right: 10px;
+}
+
+.attribute {
+    display: flex;
+    border: solid 1px black;
+    padding: 5px;
+    width: fit-content;
+    height: 25px;
+    color: black;
+    text-align: center;
+    line-height: 12px;
+    margin-right: 10px;
+}
+
+.attribute:hover {
+    cursor: pointer;
+}
+
+.price-section {
+    margin-top: 20px;
+}
+
+.price-title {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.price-amount {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cta-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.cta-button {
+    width: 100%;
+    align-self: center;
+    background-color: #5aee87;
+    border: none;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.cta-button:hover {
+    background-color: #34eb6b;
+}
+
+.cta-button:hover {
+    cursor: pointer;
+}
+
+.description-section {
+    margin-top: 30px;
+}

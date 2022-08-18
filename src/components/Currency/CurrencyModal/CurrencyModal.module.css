@@ -1,0 +1,24 @@
+.currency-modal-overlay {
+    position: fixed;
+    top: 50px;
+    right: 30px;
+    width: 85px;
+    height: fit-content;
+    background-color: white;
+
+    box-shadow: 3px 3px 10px -4px rgba(202, 202, 202, 0.75);
+    -webkit-box-shadow: 3px 3px 10px -4px rgba(202, 202, 202, 0.75);
+    -moz-box-shadow: 3px 3px 10px -4px rgba(202, 202, 202, 0.75);
+    z-index: 20;
+    padding: 5px;
+}
+
+.backdrop {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 20;
+    background-color: transparent;
+}

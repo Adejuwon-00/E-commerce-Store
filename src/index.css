@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif !important;
+
+}
+
+a,
+a:hover {
+    transition: all .4s ease-in-out;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+}
+
+p {
+    max-width: 60ch;
+}
